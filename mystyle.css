@@ -74,4 +74,8 @@ body {
 background-image: -moz-repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
 background-image: repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
 background-image: -webkit-repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
+
+font-family: 'Gaegu', cursive;
+
+text-align: center;
 }
