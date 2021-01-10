@@ -52,6 +52,13 @@ img.shake:hover {
     }
 }
 
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+
 .center {
     display: block;
     margin-left: auto;
