@@ -65,6 +65,9 @@ div#icongroup {
 div#icongroup>a {
     text-decoration: none;
 }
+div#icongroup>a>img {
+    width: 30%;
+}
 
 #runningbee {
     width: 20em;
