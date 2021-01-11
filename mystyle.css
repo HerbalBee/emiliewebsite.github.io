@@ -51,12 +51,16 @@ img.shake:hover {
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+#herbalbeetitle {
+    width: 30em
+}
 
 h1 {
     font-size: 60px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 40px;
+    color: rgb(51, 15, 75);
 }
 
 .center {
