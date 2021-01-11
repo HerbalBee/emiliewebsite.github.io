@@ -84,21 +84,11 @@ div#icongroup>a>img {
     width: 20em;
 }
 
-#bigprojectbuttonup {
-    width: 20em
-}
-
-#designbuttonup {
-    width: 20em
-}
-
-#modelbuttonup {
-    width: 20em
-}
 div#socialmedialogos>a {
     text-decoration: none;
 }
 div#portfolioicongroup>a {
+    width: 5em
     text-decoration: none;
 }
 
