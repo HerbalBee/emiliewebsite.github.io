@@ -80,6 +80,22 @@ div#icongroup>a>img {
     width: 20em;
 }
 
+#bigprojectbuttonup {
+    width: 20em
+}
+
+#designbuttonup {
+    width: 20em
+}
+
+#modelbuttonup {
+    width: 20em
+}
+
+div#portfolioicongroup>a {
+    text-decoration: none;
+}
+
 body {
 background-image: -moz-repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
 background-image: repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
