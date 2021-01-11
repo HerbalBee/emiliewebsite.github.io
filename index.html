@@ -11,6 +11,23 @@
 
 
     <body>
+
+        <img src="images/beecursor.png" alt=beecursor id=cursor>
+        <script type="text/javascript">
+        var cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove'
+            , function(e){
+            var x = e.clientX;
+            var y = e.clientY;
+            cursor.style.left = x + "px";
+            cursor.style.top = y + "px";
+        });
+
+
+        </script>
+
+
+
         <img src="images/herbalbeetitle.png" alt="herbalbee" id=herbalbeetitle>
 
         <img src="images/beerunning.png" alt="bee running" id="runningbee" class="shake center">
