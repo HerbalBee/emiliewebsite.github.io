@@ -95,17 +95,16 @@ div#icongroup>a>img {
 #modelbuttonup {
     width: 20em
 }
-
+div#socialmedialogos>a {
+    text-decoration: none;
+}
 div#portfolioicongroup>a {
     text-decoration: none;
 }
 
-#grad {
-        background-image: linear-gradient(yellow, pink, lightblue);
-      }
+        
 body {
-    
-        background-image: url("images/starbackground.png");
+        background-image:  url("images/starbackground.png"), linear-gradient(rgb(247, 247, 160), rgb(250, 174, 186), rgb(118, 239, 248));
         background-repeat: repeat;
         background-size: 1.5em;
 
