@@ -96,12 +96,16 @@ div#portfolioicongroup>a {
     text-decoration: none;
 }
 
+#grad {
+        background-image: linear-gradient(yellow, pink, lightblue);
+      }
 body {
-background-image: -moz-repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
-background-image: repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
-background-image: -webkit-repeating-linear-gradient(rgb(235, 228, 133), rgb(246, 170, 230) 10%, rgb(164, 223, 246) 20%);
+    
+        background-image: url("images/starbackground.png");
+        background-repeat: repeat;
+        background-size: 1.5em;
 
-font-family: 'Gaegu', cursive;
+    font-family: 'Gaegu', cursive;
 
-text-align: center;
+    text-align: center;
 }
