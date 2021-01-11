@@ -119,4 +119,6 @@ body {
 .card:hover .img-top {
     display: inline;
 }
-
+.card:hover .img-bot {
+    display: none;
+}
