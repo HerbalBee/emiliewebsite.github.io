@@ -112,11 +112,21 @@ body {
 
     text-align: center;
 }
+
 .card {
-    background: url("images/popcatclosed.png") no-repeat;
-    background-position: bottom right
+    width: 17.5px;
+    height: 24.8px;
+    position: relative;
+    display: inline-block;
 }
-.card:hover {
-    background: url("images/popcatopen.png") no-repeat;
-    background-position: bottom right
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
+.card:hover .img-top {
+    display: inline;
+}
+
