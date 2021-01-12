@@ -88,7 +88,6 @@ div#socialmedialogos>a {
     text-decoration: none;
 }
 div#portfolioicongroup>a {
-    width: 5em
     text-decoration: none;
 }
 
@@ -104,14 +103,12 @@ body {
 }
 
 .card {
-    width: 17.5px;
-    height: 24.8px;
     position: relative;
     display: inline-block;
 }
 .card .img-top {
     display: none;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 99;
