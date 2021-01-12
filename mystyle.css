@@ -136,3 +136,38 @@ div#mainportfolioimages>img {
     border: 5px solid #555;
     width: 35em;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    display: none;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .show {
+    display: block;
+  }
