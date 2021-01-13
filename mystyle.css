@@ -130,6 +130,7 @@ body {
 
 #cursor {
     position: absolute;
+    pointer-events: none;
 }
 
 div#mainportfolioimages>img {
