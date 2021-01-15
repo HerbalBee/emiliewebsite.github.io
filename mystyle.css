@@ -226,7 +226,7 @@ div#mainportfolioimages>img {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: pink;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -234,7 +234,9 @@ div#mainportfolioimages>img {
     user-select: none;
     -webkit-user-select: none;
   }
-  
+  .prev {
+      left: 0;
+  }
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
