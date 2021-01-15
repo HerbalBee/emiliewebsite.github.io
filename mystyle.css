@@ -91,14 +91,19 @@ div#portfolioicongroup>a {
     text-decoration: none;
 }
 
+div#backbutton>a>img {
+    text-decoration: none;
+    text-align: top left;
+}
+
 /* pulsing new art */
   
   .newart {
     animation: heart-pulse 0.9s infinite ease-out; 
     position: absolute;
     text-align: left;
-    padding-left: 13%;
-    padding-top: 3%;
+    padding-left: 20%;
+    padding-top: 6%;
   }
   
   @keyframes heart-pulse {
