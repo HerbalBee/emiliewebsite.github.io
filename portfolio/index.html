@@ -46,48 +46,127 @@
         <div class="row">
             <div class="column bigprojects">
               <div class="content">
-                <img src="../images/mainportfolio/clown enviro.jpg" alt="clownenviro" 				style="width:100%">
+                <img src="../images/mainportfolio/clown enviro.jpg" alt="clownenviro" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"				style="width:100%">
               </div>
             </div>
             <div class="column bigprojects">
               <div class="content">
-              <img src="../images/mainportfolio/shrine room.jpg" alt="shrineroon" 				style="width:100%">
+              <img src="../images/mainportfolio/shrine room.jpg" alt="shrineroon" onclick="openModal();currentSlide(2)"	class="hover-shadow cursor"			style="width:100%">
               </div>
             </div>
             <div class="column designs">
               <div class="content">
-              <img src="../images/mainportfolio/pea and pen.jpg" alt="peaandpen" 						style="width:100%">
+              <img src="../images/mainportfolio/pea and pen.jpg" alt="peaandpen" onclick="openModal();currentSlide(3)"	class="hover-shadow cursor"					style="width:100%">
               </div>
             </div>
             <div class="column designs">
               <div class="content">
-                <img src="../images/mainportfolio/clown car tests.jpg" alt="clowncarcolours" 				style="width:100%">
+                <img src="../images/mainportfolio/clown car tests.jpg" alt="clowncarcolours" onclick="openModal();currentSlide(4)"	class="hover-shadow cursor"			style="width:100%">
               </div>
             </div>
             
             <div class="column designs">
               <div class="content">
-              <img src="../images/mainportfolio/building sketches.jpg" alt="shopdesign" 				style="width:100%">
+              <img src="../images/mainportfolio/building sketches.jpg" alt="shopdesign" onclick="openModal();currentSlide(5)"	class="hover-shadow cursor"			style="width:100%">
               </div>
             </div>
             <div class="column designs">
               <div class="content">
-              <img src="../images/mainportfolio/confetti.jpg" alt="confettitrumpetti" 				style="width:100%">
+              <img src="../images/mainportfolio/confetti.jpg" alt="confettitrumpetti" onclick="openModal();currentSlide(6)"	class="hover-shadow cursor"			style="width:100%">
               </div>
             </div>
             <div class="column model">
               <div class="content">
-              <img src="../images/mainportfolio/coolmodel1.jpg" alt="model1" 							style="width:100%">
+              <img src="../images/mainportfolio/coolmodel1.jpg" alt="model1" onclick="openModal();currentSlide(7)"	class="hover-shadow cursor"						style="width:100%">
               </div>
             </div>
             
             <div class="column model">
               <div class="content">
-              <img src="../images/mainportfolio/coolmodel2.jpg" alt="model2"							style="width:100%">
+              <img src="../images/mainportfolio/coolmodel2.jpg" alt="model2"	onclick="openModal();currentSlide(8)"	class="hover-shadow cursor"					style="width:100%">
               </div>
             </div>
         </div>
       </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 8</div>
+            <img src="../images/mainportfolio/clown enviro.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 8</div>
+            <img src="../images/mainportfolio/shrine room.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 8</div>
+            <img src="../images/mainportfolio/pea and pen.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 8</div>
+            <img src="../images/mainportfolio/clown car tests.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 8</div>
+            <img src="../images/mainportfolio/building sketches.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 8</div>
+            <img src="../images/mainportfolio/confetti.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 8</div>
+            <img src="../images/mainportfolio/coolmodel1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 8</div>
+            <img src="../images/mainportfolio/coolmodel2.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/clown enviro.jpg" style="width:80%" onclick="currentSlide(1)" alt="Galaxy Bump. Clown Race Track">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/shrine room.jpg" style="width:80%" onclick="currentSlide(2)" alt="Herbie's Shop. Underworld Shrine Room">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/pea and pen.jpg" style="width:80%" onclick="currentSlide(3)" alt="Galaxy Bump. Pea and Pen">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/clown car tests.jpg" style="width:80%" onclick="currentSlide(4)" alt="Galaxy Bump. Clown Car Colour Tests">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/building sketches.jpg" style="width:80%" onclick="currentSlide(5)" alt="Herbie's Shop. Shop Design">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/confetti.jpg" style="width:80%" onclick="currentSlide(6)" alt="Galaxy Bump. Confetti Trumpetti Weapon Design">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/coolmodel1.jpg" style="width:80%" onclick="currentSlide(7)" alt="Cool Model1">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../images/mainportfolio/coolmodel2.jpg" style="width:80%" onclick="currentSlide(8)" alt="Coolmodel2">
+          </div>
+        </div>
+        
 
       <script>
         filterSelection("all")
@@ -132,6 +211,46 @@
             this.className += " active";
           });
         }
+
+        
+/* Slideshow javascript */
+
+      function openModal() {
+        document.getElementById("myModal").style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+      function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+      for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
         </script>
 
     </body>
