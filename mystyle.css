@@ -93,7 +93,12 @@ div#portfolioicongroup>a {
 
 div#backbutton>a>img {
     text-decoration: none;
+}
+div#backbutton {
+    position: absolute;
     text-align: top left;
+    padding-left: 5%;
+    padding-top: 2%;
 }
 
 /* pulsing new art */
