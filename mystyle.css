@@ -69,6 +69,39 @@ h2 {
     margin-right: auto;
 }
 
+/* start of navi bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(251, 163, 237);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(75, 15, 143);
+  font-size: 35px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(187, 47, 164);
+}
+
+.active {
+  background-color: rgb(255, 220, 249);
+}
+
+/* end of navi bar */
+
 div#icongroup {
     text-align: center;
 }
